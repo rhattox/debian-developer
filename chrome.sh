@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -xeu
 
 TMP_DIR="/tmp/chrome-install"
 DEB_FILE="$TMP_DIR/google-chrome-stable_current_amd64.deb"
