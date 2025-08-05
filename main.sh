@@ -17,3 +17,4 @@ source ./neovim.sh
 source ./asdf.sh
 source ./dotfiles.sh
 source ./profiles.sh
+source ./sudoers.sh
