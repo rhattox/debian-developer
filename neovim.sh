@@ -14,8 +14,16 @@ echo "Extracting Neovim..."
 tar -xzf "$TMP_DIR/nvim.tar.gz" -C "$TMP_DIR"
 
 echo "Installing Neovim..."
-cp "${TMP_DIR}/nvim-linux-x86_64/bin/nvim" "$INSTALL_DIR/nvim"
 
+
+echo "Bin.."
+cp -a "${TMP_DIR}/nvim-linux-x86_64/bin/nvim" "/usr/local/bin/nvim"
+
+echo "Lib.."
+cp -a "${TMP_DIR}/nvim-linux-x86_64/lib/nvim" "/usr/local/lib/nvim"
+
+echo "Share.."
+cp -a "${TMP_DIR}/nvim-linux-x86_64/share/nvim" "/usr/local/share/nvim"
 echo "Neovim installed to $INSTALL_DIR/nvim"
 
 echo "Clean up ${TMP_DIR}"
@@ -23,5 +31,5 @@ rm -rf ${TMP_DIR}
 
 
 echo "Update file permissions" 
-chown -R ${USER}:${USER} "$INSTALL_DIR/nvim"
-chmod -R 750 "$INSTALL_DIR/nvim"
+chown -R ${USER}:${USER} "/usr/local/bin/nvim"
+chmod -R 750 "/usr/local/bin/nvim"
