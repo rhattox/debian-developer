@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -xeu
+
 USER="dev"
 HOME_USER="/home/${USER}" 
 INSTALL_DIR="${HOME_USER}/.local/bin"

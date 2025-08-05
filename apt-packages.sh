@@ -1,14 +1,16 @@
 #!/bin/bash
 
+echo "Update APT packages" 
 apt update -y
 
+echo "Install APT Packages"
 apt install -y \
     sudo \
     git \
     vim \
     wget \
     curl \
-    build- \
+    build-essential \
     make \
     cmake \
     gcc \
@@ -25,15 +27,15 @@ apt install -y \
     libffi-dev \
     libgdbm-dev \
     liblzma-dev \
-    libncurses- \
-    libreadline- \
-    libsqlite3- \
+    libncurses-dev \
+    libreadline-dev \
+    libsqlite3-dev \
     libssl-dev \
     tk-dev \
     zlib1g-dev \
     nmap \
     net-tools \
-    openssh- \
+    openssh-server \
     traceroute \
     neofetch \
     glances \

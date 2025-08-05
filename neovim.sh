@@ -14,7 +14,7 @@ echo "Extracting Neovim..."
 tar -xzf "$TMP_DIR/nvim.tar.gz" -C "$TMP_DIR"
 
 echo "Installing Neovim..."
-cp "$TMP_DIR/nvim-linux64/bin/nvim" "$INSTALL_DIR/nvim"
+cp "${TMP_DIR}/nvim-linux-x86_64/bin/nvim" "$INSTALL_DIR/nvim"
 
 echo "Neovim installed to $INSTALL_DIR/nvim"
 

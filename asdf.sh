@@ -14,7 +14,7 @@ echo "Extracting asdf..."
 tar -xzf "$TMP_DIR/asdf.tar.gz" -C "$TMP_DIR"
 
 echo "Installing asdf..."
-cp "$TMP_DIR/asdf-v${ASDF_VERSION}-linux-amd64" "$INSTALL_DIR/asdf"
+cp "${TMP_DIR}/asdf" "$INSTALL_DIR/asdf"
 chmod +x "$INSTALL_DIR/asdf"
 
 echo "asdf installed to $INSTALL_DIR/asdf"
