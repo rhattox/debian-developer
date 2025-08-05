@@ -20,3 +20,4 @@ source ./asdf.sh
 source ./dotfiles.sh
 source ./profiles.sh
 source ./sudoers.sh
+source ./chrome.sh
