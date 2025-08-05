@@ -13,3 +13,8 @@ chmod 0750 ${HOME_USER}/.tmux.conf
 cp -a ./dotfiles/i3conf ${HOME_USER}/.config/i3/config
 chown ${USER}:root ${HOME_USER}/.config/i3/config
 chmod 0750 ${HOME_USER}/.config/i3/config
+
+cp -a ./dotfiles/i3conf ${HOME_USER}/.config/i3status/config
+chown ${USER}:root ${HOME_USER}/.config/i3status/config
+chmod 0750 ${HOME_USER}/.config/i3status/config
+

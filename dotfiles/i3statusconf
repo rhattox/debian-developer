@@ -1,0 +1,31 @@
+general {
+    output_format = "i3bar"
+    colors = true
+    interval = 5
+}
+
+order += "ethernet _first_"
+order += "disk /"
+order += "memory"
+order += "tztime local"
+
+
+disk "/" {
+    format = " Disk Free: %free - Total: %total"
+}
+
+memory {
+    format = " RAM: %used / %total "
+    threshold_degraded = " 1G "
+    format_degraded = " RAM: %free "
+}
+
+tztime local {
+    format = " %Y-%m-%d - %H:%M "
+    timezone = "America/Sao_Paulo"
+}
+
+ethernet _first_ {
+    format_up = "IP: %ip - %speed"
+    format_down = "No cable "
+}
