@@ -37,7 +37,6 @@ apt install -y \
     net-tools \
     openssh-server \
     traceroute \
-    neofetch \
     glances \
     iotop \
     dstat \
