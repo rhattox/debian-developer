@@ -46,9 +46,9 @@ apt install -y \
     duplicity \
     timeshift \
     ansible \
-    i3 \
-    i3status \
-    i3lock \
     dmenu \
     feh \
     tmux 
+    # i3 \
+    # i3status \
+    # i3lock \
