@@ -48,7 +48,8 @@ apt install -y \
     ansible \
     dmenu \
     feh \
-    tmux 
+    tmux \
+    telnet
     # i3 \
     # i3status \
     # i3lock \
