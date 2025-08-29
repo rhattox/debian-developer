@@ -49,7 +49,7 @@ apt install -y \
     dmenu \
     feh \
     tmux \
-    telnet \ 
+    telnet \
     man
     # i3 \
     # i3status \
