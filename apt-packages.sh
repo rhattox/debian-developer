@@ -50,7 +50,8 @@ apt install -y \
     feh \
     tmux \
     telnet \
-    man
+    man \
+    inotify-tools
     # i3 \
     # i3status \
     # i3lock \
