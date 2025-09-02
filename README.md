@@ -7,7 +7,7 @@ General profile export: `/etc/profile.d/`
 Sudoes Folder: `/etc/sudoers.d/dev`
 
 
-
+```
 
 argo                          https://github.com/sudermanjr/asdf-argo.git
 argo-rollouts                 https://github.com/abatilo/asdf-argo-rollouts.git
@@ -80,3 +80,4 @@ starship                      https://github.com/gr1m0h/asdf-starship.git
 stern                         https://github.com/looztra/asdf-stern.git
 websocat                      https://github.com/bdellegrazie/asdf-websocat.git
 localstack
+```
