@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -xeu
 
 TMP_DIR="/tmp/chrome-install"

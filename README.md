@@ -59,7 +59,6 @@ AWS CLI and other cloud automation utilities.
 | **awscli** | [link](https://github.com/MetricMike/asdf-awscli.git) | AWS CLI |
 | **awscli-local** | [link](https://github.com/paulo-ferraz-oliveira/asdf-awscli-local) | AWS CLI Local (simulate AWS services) |
 | **okta-aws-cli** | [link](https://github.com/bennythejudge/asdf-plugin-okta-aws-cli.git) | AWS CLI with Okta SSO |
-| **boundary** | [link](https://github.com/asdf-community/asdf-hashicorp.git) | HashiCorp Boundary for secure access |
 
 ---
 
@@ -94,7 +93,6 @@ For viewing logs, metrics, and system info.
 
 | Plugin | URL | Description |
 |--------|-----|-------------|
-| **loki-logcli** | [link](https://github.com/comdotlinux/asdf-loki-logcli.git) | CLI for Loki (log aggregation) |
 | **duf** | [link](https://github.com/NeoHsu/asdf-duf.git) | Disk usage/free space viewer |
 | **dust** | [link](https://github.com/looztra/asdf-dust.git) | Disk usage analysis (better `du`) |
 
@@ -120,16 +118,6 @@ Useful CLI utilities for everyday development.
 
 ---
 
-## 📡 Messaging & Streaming
-Tools for Kafka and event-driven systems.
-
-| Plugin | URL | Description |
-|--------|-----|-------------|
-| **kafka** | [link](https://github.com/ueisele/asdf-kafka.git) | Apache Kafka CLI |
-| **kafkactl** | [link](https://github.com/anweber/asdf-kafkactl.git) | Kafka cluster management CLI |
-
----
-
 ## 🐍 Programming Languages & Runtimes
 For language version management.
 
@@ -150,8 +138,6 @@ Miscellaneous or less commonly used tools.
 | **bfs** | [link](https://github.com/virtualroot/asdf-bfs.git) | Better `find` alternative |
 | **fillin** | [link](https://github.com/ouest/asdf-fillin) | Interactive `.env` filling tool |
 | **lq** | [link](https://github.com/jylenhof/asdf-lq.git) | Log query tool |
-| **mongosh** | [link](https://github.com/itspngu/asdf-mongosh.git) | MongoDB Shell |
-| **jfrog-cli** | [link](https://github.com/LozanoMatheus/asdf-jfrog-cli.git) | JFrog CLI |
 
 ---
 
@@ -217,7 +203,6 @@ kubecolor                     https://github.com/dex4er/asdf-kubecolor.git
 kubectl                       https://github.com/asdf-community/asdf-kubectl.git
 kubectx                       https://gitlab.com/wt0f/asdf-kubectx.git
 liquibase                     https://github.com/saliougaye/asdf-liquibase.git
-loki-logcli                   https://github.com/comdotlinux/asdf-loki-logcli.git
 lq                            https://github.com/jylenhof/asdf-lq.git
 make                          https://github.com/yacchi/asdf-make.git
 maven                        *https://github.com/halcyon/asdf-maven.git

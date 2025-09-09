@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 set -xeu
 
@@ -22,7 +22,7 @@ source ./profiles.sh
 source ./sudoers.sh
 # source ./chrome.sh
 
-chown ${USER}:root -R ${HOME_USER}/.config
+chown ${USER}:${USER} -R ${HOME_USER}/.config
 chmod -R 750 -R ${HOME_USER}/.config
-chown ${USER}:root -R ${HOME_USER}/.local
+chown ${USER}:${USER} -R ${HOME_USER}/.local
 chmod -R 750 -R ${HOME_USER}/.local
