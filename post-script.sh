@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 set -e
 
+asdf plugin add python https://github.com/danhper/asdf-python.git
+asdf install python 3.13.7
+asdf set -u python 3.13.7
+
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf install nodejs 24.6.0
 asdf set -u nodejs 24.6.0
@@ -16,3 +20,4 @@ asdf set -u ripgrep 14.1.1
 asdf plugin add fd https://gitlab.com/wt0f/asdf-fd.git
 asdf install fd 10.3.0
 asdf set -u fd 10.3.0
+
