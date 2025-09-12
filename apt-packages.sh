@@ -22,7 +22,7 @@ apt install -y htop iftop iotop sysstat glances dstat
 # apt install -y dmenu feh i3 i3status i3lock xrdp
 
 echo "Install Other Useful Tools"
-apt install -y update-motd jq yq fzf ca-certificates software-properties-common apt-transport-https gnupg lsb-release
+apt install -y jq yq fzf ca-certificates apt-transport-https gnupg lsb-release
 
 echo "Clean up APT cache"
 apt clean
