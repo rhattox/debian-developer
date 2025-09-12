@@ -20,7 +20,7 @@ source ./asdf.sh
 source ./dotfiles.sh
 source ./profiles.sh
 source ./sudoers.sh
-# source ./chrome.sh
+source ./chrome.sh
 source ./wsl.sh
 
 chown ${USER}:${USER} -R ${HOME_USER}/.config

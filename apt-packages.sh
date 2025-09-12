@@ -19,11 +19,11 @@ echo "Install System Monitoring Tools"
 apt install -y htop iftop iotop sysstat glances dstat
 
 # echo "Install Window Manager"
-# apt install -y dmenu feh i3 i3status i3lock xrdp
+apt install -y dmenu feh i3 i3status i3lock xrdp gnome-terminal
 
 echo "Install Other Useful Tools"
 apt install -y jq yq fzf ca-certificates apt-transport-https gnupg lsb-release
 
-echo "Clean up APT cache"
-apt clean
-rm -rf /var/lib/apt/lists/* /var/cache/apt/archives /var/cache/apt/archives/partial
+# Install fonts
+echo "Install Fonts"
+sudo apt install fonts-liberation fonts-liberation2 -y
