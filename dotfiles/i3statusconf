@@ -11,7 +11,7 @@ order += "tztime local"
 
 
 disk "/" {
-    format = " Disk Free: %used - Total: %total"
+    format = " Disk Usage: %used - Disk Total: %total"
 }
 
 memory {
