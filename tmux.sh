@@ -6,11 +6,20 @@ TMUX_FILE="/home/${USER}/.bashrc_tmux"
 # 1️⃣ Create ~/.bashrc_tmux if it doesn't exist
 if [ ! -f "$TMUX_FILE" ]; then
     cat << 'EOF' > "$TMUX_FILE"
-# ~/.bashrc_tmux
+#!/usr/bin/env bash
 if command -v tmux &> /dev/null; then
-  [ -z "$TMUX" ] && [ -n "$PS1" ] && exec tmux new-session -s default
+    # Only attach if we're in an interactive shell and not already inside tmux
+    if [ -z "$TMUX" ] && [ -n "$PS1" ]; then
+        # Check if 'default' session exists
+        if tmux has-session -t default 2>/dev/null; then
+            tmux attach-session -t default
+        else
+            tmux new-session -s default
+        fi
+    fi
 fi
 EOF
+
     echo "Created $TMUX_FILE"
 else
     echo "$TMUX_FILE already exists"
