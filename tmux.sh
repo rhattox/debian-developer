@@ -8,7 +8,7 @@ if [ ! -f "$TMUX_FILE" ]; then
     cat << 'EOF' > "$TMUX_FILE"
 # ~/.bashrc_tmux
 if command -v tmux &> /dev/null; then
-  [ -z "$TMUX" ] && [ -n "$PS1" ] && exec tmux new-sessions -s default
+  [ -z "$TMUX" ] && [ -n "$PS1" ] && exec tmux new-session -s default
 fi
 EOF
     echo "Created $TMUX_FILE"

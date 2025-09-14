@@ -38,6 +38,6 @@ source ${EXECUTION_PATH}/sudoers.sh
 source ${EXECUTION_PATH}/chrome.sh
 source ${EXECUTION_PATH}/wsl.sh
 source ${EXECUTION_PATH}/fonts.sh
-source ${EXECUTION_PATH}/set-permissions.sh
 source ${EXECUTION_PATH}/tmux.sh
+source ${EXECUTION_PATH}/set-permissions.sh
 source ${EXECUTION_PATH}/cleanup.sh
