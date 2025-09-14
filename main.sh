@@ -26,20 +26,17 @@ NVIM_URL="https://github.com/neovim/neovim/releases/download/v${NVIM_VERSION}/nv
 PROFILES_FOLDER="/etc/profile.d"
 SUDOERS_FOLDER="/etc/sudoers.d"
 
-mkdir -p "$INSTALL_DIR"
+mkdir -p "${INSTALL_DIR}"
 mkdir -p "${TMP_DIR}"
 
-source ./apt-packages.sh
-source ./neovim.sh
-source ./asdf.sh
-source ./dotfiles.sh
-source ./profiles.sh
-source ./sudoers.sh
-source ./chrome.sh
-source ./wsl.sh
-source ./fonts.sh
-
-chown ${USER}:${USER} -R ${HOME_USER}/.config
-chmod -R 750 -R ${HOME_USER}/.config
-chown ${USER}:${USER} -R ${HOME_USER}/.local
-chmod -R 750 -R ${HOME_USER}/.local
+source ${EXECUTION_PATH}/apt-packages.sh
+source ${EXECUTION_PATH}/neovim.sh
+source ${EXECUTION_PATH}/asdf.sh
+source ${EXECUTION_PATH}/dotfiles.sh
+source ${EXECUTION_PATH}/profiles.sh
+source ${EXECUTION_PATH}/sudoers.sh
+source ${EXECUTION_PATH}/chrome.sh
+source ${EXECUTION_PATH}/wsl.sh
+source ${EXECUTION_PATH}/fonts.sh
+source ${EXECUTION_PATH}/set-permissions.sh
+source ${EXECUTION_PATH}/cleanup.sh
