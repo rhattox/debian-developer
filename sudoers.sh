@@ -1,13 +1,18 @@
 #!/usr/bin/env bash
-set -e
 
-echo "Add user to sudo group" 
+echo "###########################"
+echo "###########################"
+echo "#### CONFIGURE SUDOERS ####"
+echo "###########################"
+echo "###########################"
+
+echo "Add user to sudo group"
 
 usermod -aG sudo ${USER}
 
-echo "Add user to sudoers" 
+echo "Add user to sudoers"
 
-cat <<EOF > ${SUDOERS_FOLDER}/${USER}
+cat <<EOF >${SUDOERS_FOLDER}/${USER}
 ${USER} ALL=(ALL) NOPASSWD:ALL
 EOF
 chown root:root ${SUDOERS_FOLDER}/${USER}
