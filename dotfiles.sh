@@ -26,3 +26,4 @@ cp -a ${EXECUTION_PATH}/dotfiles/i3statusconf ${HOME_USER}/.config/i3status/conf
 chown -R ${USER}:${USER} ${HOME_USER}/.config/i3status/config
 chmod -R 0750 ${HOME_USER}/.config/i3status/config
 
+git clone https://github.com/rhattox/dotfiles.git ${HOME_USER}/.config/nvim
