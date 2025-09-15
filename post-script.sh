@@ -21,3 +21,7 @@ asdf plugin add fd https://gitlab.com/wt0f/asdf-fd.git
 asdf install fd 10.3.0
 asdf set -u fd 10.3.0
 
+asdf plugin add golang https://github.com/asdf-community/asdf-golang.git
+asdf install golang 1.25.1
+asdf set -u golang 1.25.1
+
