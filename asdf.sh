@@ -28,3 +28,6 @@ rm -rf ${TMP_DIR}
 echo "Update file permissions" 
 chown -R ${USER}:${USER} ${INSTALL_DIR}/asdf
 chmod -R 750 ${INSTALL_DIR}/asdf
+
+
+cp -a ${EXECUTION_PATH}/dotfiles/.plugin-versions /home/${USER}/.plugin-versions
