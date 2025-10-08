@@ -8,7 +8,8 @@ echo "### DEBIAN DEVELOPER ###"
 echo "########################"
 echo "########################"
 
-EXECUTION_PATH=$(pwd)
+EXECUTION_PATH="$(realpath "${0}")"
+EXECUTION_PATH="$(dirname "${EXECUTION_PATH}")"
 USER="dev"
 HOME_USER="/home/${USER}"
 INSTALL_DIR="${HOME_USER}/.local/bin"
