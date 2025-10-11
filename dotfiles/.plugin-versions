@@ -1,70 +1,35 @@
-act                                       https://github.com/gr1m0h/asdf-act.git
-77ede46c98f2dc36f1657c01b6cdfded40c07344  
-argo                                      https://github.com/sudermanjr/asdf-argo.git
-2ed321a3cf1b8f7fd7e56696743a96d1b0df9a02  
-argo-rollouts                             https://github.com/abatilo/asdf-argo-rollouts.git
-4fc81058991cd1a17ef95833bcfe87150b69fbbd  
-argocd                                    https://github.com/beardix/asdf-argocd.git
-429bbf95626ae04cc0ced6b292c8fd0c50e47e0b  
-asdf-plugin-manager                       https://github.com/asdf-community/asdf-plugin-manager
-f1cc7390168e10e2f7ebc044293957fe72009d5b  
-awscli                                    https://github.com/MetricMike/asdf-awscli.git
-8489e240cead79912147087f9a3f0ea8ef69616e  
-crictl                                    https://github.com/FairwindsOps/asdf-crictl.git
-fc16c455bc280e931cfdee1cd087e475c1314d20  
-dive                                      https://github.com/looztra/asdf-dive.git
-1321207e6a7333f8990ff3f2704857808856c793  
-dockle                                    https://github.com/mathew-fleisch/asdf-dockle.git
-0af3e32a0149bcca6a7e62356457c1715dca4944  
-envsubst                                  https://github.com/dex4er/asdf-envsubst.git
-a106ca3c79cff274c44244f49d4d579f0b058373  
-fd                                        https://gitlab.com/wt0f/asdf-fd.git
-17d56e06158d074df735224b2c267f0c53fe1afe  
-ghorg                                     https://github.com/gbloquel/asdf-ghorg.git
-c588db062e0bfc233562297392041b6396771f50  
-git-chglog                                https://github.com/GoodwayGroup/asdf-git-chglog.git
-ef79c137b8ef859ac651929f67ae9f2674d544cb  
-git-cliff                                 https://github.com/jylenhof/asdf-git-cliff.git
-f274b35f0698c09b94c3d48bff8886349fc4cb13  
-github-cli                                https://github.com/bartlomiejdanek/asdf-github-cli.git
-e0605b704ef3829e10a9353b91b4c0bafa5e5582  
-golang                                    https://github.com/asdf-community/asdf-golang.git
-50c8f58237da34223d31ac9e62e5d5f8dcc13f5f  
-helm                                      https://github.com/Antiarchitect/asdf-helm.git
-00b6ead39b97536304042241f31242811ca39f74  
-helm-cr                                   https://github.com/Antiarchitect/asdf-helm-cr.git
-393499f956001952d18d6072fe9cd18fb255c656  
-helm-ct                                   https://github.com/tablexi/asdf-helm-ct.git
-3e3ec87d07e6f48656158f8e96e77b6a68310ad2  
-helm-diff                                 https://github.com/dex4er/asdf-helm-diff.git
-47bb84b9a34e026d3b69c9156b15296b9db023d2  
-helm-docs                                 https://github.com/sudermanjr/asdf-helm-docs.git
-2fbb98fd2684d431011980a4cc4f3c9ffb1e870b  
-istioctl                                  https://github.com/virtualstaticvoid/asdf-istioctl.git
-6ec43e8905c2482b3d63d6fe57585ffdeb8255f8  
-java                                      https://github.com/halcyon/asdf-java.git
-9d275c078c29884de270269840f2e92488a70939  
-jfrog-cli                                 https://github.com/LozanoMatheus/asdf-jfrog-cli.git
-a32042f066184ee299bce672ce17e86f5d4aba2b  
-k3s                                       https://github.com/dmpe/asdf-k3s.git
-52d2babdaea7601d6fdfa6644c4cc7a1b3443f77  
-k9s                                       https://github.com/looztra/asdf-k9s.git
-3ca9f8de25859fb8f2421ffb043840808d7e2437  
-krew                                      https://github.com/bjw-s/asdf-krew.git
-6354415b1e113e09730da0ea7ca81fa9e70dda5f  
-kubectl                                   https://github.com/asdf-community/asdf-kubectl.git
-2fb3b57090e3efe55953a751a134c271ba83b119  
-kubectx                                   https://gitlab.com/wt0f/asdf-kubectx.git
-8c0b4aaee7d3f2f1402db71c1f66f7614bf382f9  
-lua                                       https://github.com/Stratus3D/asdf-lua.git
-1ebd84967ed6b7aefeb4300cfcb211f414be0226  
-maven                                     https://github.com/halcyon/asdf-maven.git
-674e23a8e239147ccf835252a41459c72f497c94  
-nodejs                                    https://github.com/asdf-vm/asdf-nodejs.git
-90b8ecaa556916daba983a7b01869a9ea682f285  
-python                                    https://github.com/danhper/asdf-python.git
-d4caa7d4832313b4c141ee0ceca4118747147e89  
-ripgrep                                   https://gitlab.com/wt0f/asdf-ripgrep.git
-738a361f28c8070f200b3944da8c783f4cae304e  
-stern                                     https://github.com/looztra/asdf-stern.git
-e17efbae3f39f9231840adf7daf1a94a4c17f637  
+act                                       https://github.com/gr1m0h/asdf-act.git                                       77ede46c98f2dc36f1657c01b6cdfded40c07344
+argo                                      https://github.com/sudermanjr/asdf-argo.git                                  2ed321a3cf1b8f7fd7e56696743a96d1b0df9a02
+argo-rollouts                             https://github.com/abatilo/asdf-argo-rollouts.git                            4fc81058991cd1a17ef95833bcfe87150b69fbbd
+argocd                                    https://github.com/beardix/asdf-argocd.git                                   429bbf95626ae04cc0ced6b292c8fd0c50e47e0b
+asdf-plugin-manager                       https://github.com/asdf-community/asdf-plugin-manager                        f1cc7390168e10e2f7ebc044293957fe72009d5b
+awscli                                    https://github.com/MetricMike/asdf-awscli.git                                8489e240cead79912147087f9a3f0ea8ef69616e
+crictl                                    https://github.com/FairwindsOps/asdf-crictl.git                              fc16c455bc280e931cfdee1cd087e475c1314d20
+dive                                      https://github.com/looztra/asdf-dive.git                                     1321207e6a7333f8990ff3f2704857808856c793
+dockle                                    https://github.com/mathew-fleisch/asdf-dockle.git                            0af3e32a0149bcca6a7e62356457c1715dca4944
+envsubst                                  https://github.com/dex4er/asdf-envsubst.git                                  a106ca3c79cff274c44244f49d4d579f0b058373
+fd                                        https://gitlab.com/wt0f/asdf-fd.git                                          17d56e06158d074df735224b2c267f0c53fe1afe
+ghorg                                     https://github.com/gbloquel/asdf-ghorg.git                                   c588db062e0bfc233562297392041b6396771f50
+git-chglog                                https://github.com/GoodwayGroup/asdf-git-chglog.git                          ef79c137b8ef859ac651929f67ae9f2674d544cb
+git-cliff                                 https://github.com/jylenhof/asdf-git-cliff.git                               f274b35f0698c09b94c3d48bff8886349fc4cb13
+github-cli                                https://github.com/bartlomiejdanek/asdf-github-cli.git                       e0605b704ef3829e10a9353b91b4c0bafa5e5582
+golang                                    https://github.com/asdf-community/asdf-golang.git                            50c8f58237da34223d31ac9e62e5d5f8dcc13f5f
+helm                                      https://github.com/Antiarchitect/asdf-helm.git                               00b6ead39b97536304042241f31242811ca39f74
+helm-cr                                   https://github.com/Antiarchitect/asdf-helm-cr.git                            393499f956001952d18d6072fe9cd18fb255c656
+helm-ct                                   https://github.com/tablexi/asdf-helm-ct.git                                  3e3ec87d07e6f48656158f8e96e77b6a68310ad2
+helm-diff                                 https://github.com/dex4er/asdf-helm-diff.git                                 47bb84b9a34e026d3b69c9156b15296b9db023d2
+helm-docs                                 https://github.com/sudermanjr/asdf-helm-docs.git                             2fbb98fd2684d431011980a4cc4f3c9ffb1e870b
+istioctl                                  https://github.com/virtualstaticvoid/asdf-istioctl.git                       6ec43e8905c2482b3d63d6fe57585ffdeb8255f8
+java                                      https://github.com/halcyon/asdf-java.git                                     9d275c078c29884de270269840f2e92488a70939
+jfrog-cli                                 https://github.com/LozanoMatheus/asdf-jfrog-cli.git                          a32042f066184ee299bce672ce17e86f5d4aba2b
+k3s                                       https://github.com/dmpe/asdf-k3s.git                                         52d2babdaea7601d6fdfa6644c4cc7a1b3443f77
+k9s                                       https://github.com/looztra/asdf-k9s.git                                      3ca9f8de25859fb8f2421ffb043840808d7e2437
+krew                                      https://github.com/bjw-s/asdf-krew.git                                       6354415b1e113e09730da0ea7ca81fa9e70dda5f
+kubectl                                   https://github.com/asdf-community/asdf-kubectl.git                           2fb3b57090e3efe55953a751a134c271ba83b119
+kubectx                                   https://gitlab.com/wt0f/asdf-kubectx.git                                     8c0b4aaee7d3f2f1402db71c1f66f7614bf382f9
+lua                                       https://github.com/Stratus3D/asdf-lua.git                                    1ebd84967ed6b7aefeb4300cfcb211f414be0226
+maven                                     https://github.com/halcyon/asdf-maven.git                                    674e23a8e239147ccf835252a41459c72f497c94
+nodejs                                    https://github.com/asdf-vm/asdf-nodejs.git                                   90b8ecaa556916daba983a7b01869a9ea682f285
+python                                    https://github.com/danhper/asdf-python.git                                   d4caa7d4832313b4c141ee0ceca4118747147e89
+ripgrep                                   https://gitlab.com/wt0f/asdf-ripgrep.git                                     738a361f28c8070f200b3944da8c783f4cae304e
+stern                                     https://github.com/looztra/asdf-stern.git                                    e17efbae3f39f9231840adf7daf1a94a4c17f637
