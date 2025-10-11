@@ -44,3 +44,6 @@ source ${EXECUTION_PATH}/home-folders.sh
 source ${EXECUTION_PATH}/set-permissions.sh
 source ${EXECUTION_PATH}/nosuspend.sh
 source ${EXECUTION_PATH}/cleanup.sh
+
+
+sudo timeshift --create --comments "INITIAL BACKUP" --tags D
