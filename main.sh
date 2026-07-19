@@ -2,6 +2,16 @@
 
 #set -xeu
 
+if [ "$EUID" -ne 0 ] || [ -z "$SUDO_USER" ]; then
+	echo "Error: This script must be run as a non-root user using 'sudo'."
+	echo "Usage: sudo $0"
+	exit 1
+fi
+
+echo "Starting the Script, we will create a backup before it"
+
+timeshift --create --comments "INITIAL BACKUP" --tags D
+
 echo "########################"
 echo "########################"
 echo "### DEBIAN DEVELOPER ###"
@@ -46,5 +56,4 @@ source ${EXECUTION_PATH}/nosuspend.sh
 source ${EXECUTION_PATH}/ssh-keys.sh
 source ${EXECUTION_PATH}/cleanup.sh
 
-
-sudo timeshift --create --comments "INITIAL BACKUP" --tags D
+sudo timeshift --create --comments "BACKUP After Script" --tags D
