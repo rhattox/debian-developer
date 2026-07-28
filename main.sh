@@ -25,3 +25,18 @@ else
 		;;
 	esac
 fi
+
+USER_ID=$(id -u)
+USER="dev"
+
+if [[ ${EUID} -ne 0 ]]; then
+	echo "ROOT User is Required"
+	exit 1
+fi
+
+if [[ -n "${SUDO_USER}" ]]; then
+	echo "SUDO USER: ${SUDO_USER}"
+	USER="${SUDO_USER}"
+else
+	echo "SUDO_USER is not defined, then, it going to assume as USER='${USER}'"
+fi
