@@ -29,6 +29,13 @@ fi
 USER_ID=$(id -u)
 USER="dev"
 
+# TODO
+# CREATE CONDITION TO VALIDADE .ENV
+source .env
+
+EXECUTION_PATH="$(realpath "${0}")"
+EXECUTION_PATH="$(dirname "${EXECUTION_PATH}")"
+
 if [[ ${EUID} -ne 0 ]]; then
 	echo "ROOT User is Required"
 	exit 1
@@ -40,3 +47,22 @@ if [[ -n "${SUDO_USER}" ]]; then
 else
 	echo "SUDO_USER is not defined, then, it going to assume as USER='${USER}'"
 fi
+
+case "${INSTALL_MODE}" in
+"server")
+	echo "Valid choice: server"
+	source ${EXECUTION_PATH}/server/main.sh
+	;;
+"desktop")
+	echo "Valid choice: desktop"
+	source ${EXECUTION_PATH}/desktop/main.sh
+	;;
+"wsl")
+	echo "starting wsl"
+	source ${EXECUTION_PATH}/wsl/main.sh
+	;;
+*)
+	echo "Error: ??"
+	exit 1
+	;;
+esac
