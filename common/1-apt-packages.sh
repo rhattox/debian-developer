@@ -2,7 +2,6 @@
 
 echo "######################"
 echo "COMMON APT PACKAGES"
-echo "######################"
 
 apt update -y
 
@@ -23,6 +22,8 @@ apt install -y htop iftop iotop sysstat glances dstat
 
 # CLI Utilities, Data Parsing & Package Management
 apt install -y jq yq fzf ca-certificates apt-transport-https gnupg lsb-release
+
+echo "######################"
 
 # HELPER
 ###

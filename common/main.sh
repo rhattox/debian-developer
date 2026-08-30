@@ -2,11 +2,14 @@
 
 #set -xeu
 
-local_execution_path="${EXECUTION_PATH}/common"
+echo "##############################"
+echo "#### START COMMON SETUP ####"
+echo "##############################"
 
+# Run the shared setup steps from the common directory for this machine.
+local_execution_path="${EXECUTION_PATH}/common"
 source ${local_execution_path}/1-apt-packages.sh
-source ${EXECUTION_PATH}/neovim.sh
-source ${EXECUTION_PATH}/asdf.sh
-source ${EXECUTION_PATH}/dotfiles.sh
-source ${EXECUTION_PATH}/profiles.sh
-source ${EXECUTION_PATH}/sudoers.sh
+
+echo "##############################"
+echo "#### COMMON SETUP COMPLETE ####"
+echo "##############################"

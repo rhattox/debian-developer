@@ -48,6 +48,10 @@ else
 	echo "SUDO_USER is not defined, then, it going to assume as USER='${USER}'"
 fi
 
+# installs common first and then it goes through the user choice
+
+source ${EXECUTION_PATH}/common/main.sh
+
 case "${INSTALL_MODE}" in
 "server")
 	echo "Valid choice: server"
