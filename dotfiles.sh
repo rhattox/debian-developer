@@ -6,14 +6,14 @@ echo "#### INSTALL .DOTFILES ####"
 echo "###########################"
 echo "###########################"
 
-cp -a ${EXECUTION_PATH}/dotfiles/.profile ${HOME_USER}/.profile
-chown ${USER}:${USER} ${HOME_USER}/.profile
-chmod 0750 ${HOME_USER}/.profile
+cp -a ${EXECUTION_PATH}/dotfiles/.bash_profile ${HOME_USER}/.bash_profile
+chown ${USER}:${USER} ${HOME_USER}/.bash_profile
+chmod 0750 ${HOME_USER}/.bash_profile
 
 
-cp -a ${EXECUTION_PATH}/dotfiles/.bash_rc ${HOME_USER}/.bash_rc
-chown ${USER}:${USER} ${HOME_USER}/.bash_rc
-chmod 0750 ${HOME_USER}/.bash_rc
+cp -a ${EXECUTION_PATH}/dotfiles/.bashrc ${HOME_USER}/.bashrc
+chown ${USER}:${USER} ${HOME_USER}/.bashrc
+chmod 0750 ${HOME_USER}/.bashrc
 
 cp -a ${EXECUTION_PATH}/dotfiles/.gitconfig ${HOME_USER}/.gitconfig
 chown ${USER}:${USER} ${HOME_USER}/.gitconfig
