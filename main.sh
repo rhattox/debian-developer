@@ -10,7 +10,7 @@ fi
 
 echo "Starting the Script, we will create a backup before it"
 
-timeshift --create --comments "INITIAL BACKUP" --tags D
+# timeshift --create --comments "INITIAL BACKUP" --tags D
 
 echo "########################"
 echo "########################"
@@ -56,4 +56,4 @@ source ${EXECUTION_PATH}/nosuspend.sh
 source ${EXECUTION_PATH}/ssh-keys.sh
 source ${EXECUTION_PATH}/cleanup.sh
 
-sudo timeshift --create --comments "BACKUP After Script" --tags D
+# sudo timeshift --create --comments "BACKUP After Script" --tags D

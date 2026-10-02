@@ -31,7 +31,6 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-EOF
 
 cat << 'EOF' > ~/.profile
 # ~/.profile: executed by the command interpreter for login shells.
